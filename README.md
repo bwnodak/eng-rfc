@@ -6,7 +6,7 @@ This repository is the single source of truth for engineering RFCs (Request for 
 
 An RFC is a proposal for significant changes or projects that affect our engineering workflow, architecture, or other technical decisions. They are used to outline an approach and gather feedback from the team before moving forward.
 
-### Rules of Thumb 
+## Rules of Thumb 
 
 **When to Create an RFC**
 
