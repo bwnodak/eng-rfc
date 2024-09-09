@@ -1,0 +1,16 @@
+{
+  "name": "eng-rfc",
+  "version": "1.0.0",
+  "description": "This repository is the single source of truth for engineering RFCs (Request for Comments) within our team. The purpose of this repository is to streamline the discussion, development, and approval of major engineering decisions and projects. Using GitHub's version control, templates, notifications, and comments, we aim to foster open participation and maintain clear records of discussions and decisions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.5",
+    "markdownlint-cli": "^0.41.0"
+  }
+}
