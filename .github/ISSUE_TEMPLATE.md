@@ -19,3 +19,4 @@ What are the risks, challenges, or possible blockers?
 ---
 
 - [ ] I am willing to shepherd this issue into an RFC if it gains traction.
+- [ ] I am looking for a shepherd or co-shepherd for this effort.
