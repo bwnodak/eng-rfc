@@ -6,34 +6,19 @@ This repository is the single source of truth for engineering RFCs (Request for 
 
 An RFC is a proposal for significant changes or projects that affect our engineering workflow, architecture, or other technical decisions. They are used to outline an approach and gather feedback from the team before moving forward.
 
-### Rules of Thumb: When to Create an RFC
+### Rules of Thumb 
 
-Not every change or project needs an RFC, but here are some guidelines to help you decide when one is appropriate:
+**When to Create an RFC**
 
-- **Significant Architectural Changes**: If a proposal involves changing how systems interact, introducing new technologies, or modifying the structure of core components, an RFC is recommended.
-  
-- **High-Risk or Large Projects**: If the change could have major impacts on stability, performance, or security, or if it involves a significant time or resource commitment, it's best to formalize it with an RFC.
+If your proposal includes:
 
-- **Cross-Team Impact**: If the project or decision affects multiple teams, requires coordination across departments, or will change workflows for multiple stakeholders, an RFC should be written to ensure alignment.
+- **Involves significant changes** to architecture, core components, or cross-team dependencies (e.g., introducing new frameworks or modifying infrastructure).
+- **Carries high risk** (impact on stability, performance, or security) or requires a substantial resource/time commitment.
+- **Introduces breaking changes** that affect existing systems or APIs, or alters processes or standards (e.g., new workflows, coding guidelines).
 
-- **New Frameworks, Libraries, or Tools**: Introducing new third-party dependencies or frameworks that will be widely adopted should go through the RFC process for evaluation.
+**When an RFC May Not Be Needed**:
 
-- **Breaking Changes**: If your change will cause backward incompatibility with existing systems or APIs, it’s important to outline the risks and mitigation strategies in an RFC.
-
-- **Key Infrastructure Updates**: Any modifications to critical infrastructure components (e.g., CI/CD pipelines, logging systems, or cloud configurations) should be proposed via RFC.
-
-- **Unclear or Controversial Changes**: If the proposal is likely to generate a lot of debate or if there are multiple ways to approach the problem, an RFC helps structure the conversation and reach consensus.
-
-- **New Processes or Standards**: Proposals that impact how the team works (coding guidelines, workflows, testing strategies) should be formalized in an RFC to ensure everyone is on board.
-
-**When an RFC May Not Be Needed:**
-
-- **Small or Low-Risk Changes**: Bug fixes, minor refactoring, or small feature additions that don’t significantly alter workflows or architecture generally don’t require an RFC.
-  
-- **Team-Specific Adjustments**: Changes that are contained to a single team or have no external dependencies may not require an RFC unless they impact others.
-  
-- **Routine Updates**: If the change is a routine update to documentation, configurations, or dependencies with no breaking changes, it can typically skip the RFC process.
-
+- **Low-risk or routine updates**: Bug fixes, minor feature additions, team-specific changes, or routine updates that don’t impact others.
 
 ## Process Overview
 
@@ -58,10 +43,11 @@ Not every change or project needs an RFC, but here are some guidelines to help y
 - **Sponsorship:** Every RFC requires at least one Staff+ engineer sponsor for approval.
   
 ## Repository Structure
-
+```
 ├── README.md                         # Overview of the repository 
 ├── rfcs/                             # Folder containing all RFCs 
 │ └── yyyy-mm-dd-rfc-title.md         # Individual RFCs, named by date and short title 
 └── .github/ 
   └── ISSUE_TEMPLATE.md               # Template for pre-RFC issue discussion 
   └── PULL_REQUEST_TEMPLATE.md        # Template for RFC pull requests
+```
