@@ -9,17 +9,15 @@ An RFC is a proposal for significant changes or projects that affect our enginee
 1. Any person in the org can create an RFC
 2. These RFCs should always choose "timely" over "perfect"
 
-## Rules of Thumb 
+## Rules of Thumb
 
-**When to Create an RFC**
-
-If your proposal includes:
+When to Create an RFC:
 
 - **Involves significant changes** to architecture, core components, or cross-team dependencies (e.g., introducing new frameworks or modifying infrastructure).
 - **Carries high risk** (impact on stability, performance, or security) or requires a substantial resource/time commitment.
 - **Introduces breaking changes** that affect existing systems or APIs, or alters processes or standards (e.g., new workflows, coding guidelines).
 
-**When an RFC May Not Be Needed**:
+When an RFC May Not Be Needed:
 
 - **Low-risk or routine updates**: Bug fixes, minor feature additions, team-specific changes, or routine updates that don’t impact others.
 
@@ -46,7 +44,8 @@ If your proposal includes:
 - **Sponsorship:** Every RFC requires at least one Staff+ engineer sponsor for approval.
   
 ## Repository Structure
-```
+
+```bash
 ├── README.md                         # Overview of the repository 
 ├── rfcs/                             # Folder containing all RFCs 
 │ └── yyyy-mm-dd-rfc-title.md         # Individual RFCs, named by date and short title 
@@ -54,3 +53,24 @@ If your proposal includes:
   └── ISSUE_TEMPLATE.md               # Template for pre-RFC issue discussion 
   └── PULL_REQUEST_TEMPLATE.md        # Template for RFC pull requests
 ```
+
+## Contributing
+
+We encourage everyone in the team to contribute to discussions, issues, and RFC pull requests. Follow these steps to set up the repository locally and ensure that your changes conform to our standards.
+
+### Setup Instructions
+
+- **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/{org}/eng-rfc.git
+   cd eng-rfc
+   ```
+
+- **Install dependencies**: We use npm to manage development dependencies.
+
+  ```bash
+  npm install
+  ```
+
+- **Git Hooks**: Git hooks are set up using `husky` to automatically run the linter before you commit. If there are any issues, the commit will be blocked until they are resolved. If you are having trouble resolving linting issues, refer to this [helpful rule guide](https://xiangxing98.github.io/Markdownlint_Rules.html).

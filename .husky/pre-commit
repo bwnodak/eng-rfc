@@ -1,1 +1,1 @@
-npx markdownlint '**/rfcs/*.md'
+npx markdownlint '**/*.md' -i '**/node_modules/**' --fix
