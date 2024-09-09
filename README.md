@@ -4,7 +4,10 @@ This repository is the single source of truth for engineering RFCs (Request for 
 
 ## What is an RFC?
 
-An RFC is a proposal for significant changes or projects that affect our engineering workflow, architecture, or other technical decisions. They are used to outline an approach and gather feedback from the team before moving forward.
+An RFC is a proposal for significant changes or projects that affect our engineering workflow, architecture, or other technical decisions. They are used to outline an approach and gather feedback from the team before moving forward. RFCs are an effective way for an engineering organization to manage both historical and planned changes.
+
+1. Any person in the org can create an RFC
+2. These RFCs should always choose "timely" over "perfect"
 
 ## Rules of Thumb 
 
@@ -33,7 +36,7 @@ If your proposal includes:
 
 3. **Approval:**
    - An RFC must be approved by at least one Staff+ engineer before being merged to `main`, indicating that it is accepted and will move forward.
-   - Merging an RFC means that the project can begin implementation.
+   - Merging an RFC means that the project has been ratified and can begin formal planning and implementation (in coordination with engineering management).
    - If approval state changes, the RFC should be reverted.
 
 ## Guidelines for RFCs
