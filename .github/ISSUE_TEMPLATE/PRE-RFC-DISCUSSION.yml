@@ -5,22 +5,32 @@ assignees: [bwnodak]
 body:
   - type: markdown
     attributes:
-      value: |
-        ## Pre-RFC Discussion
+      value: "## Pre-RFC Discussion"
+      
+  - type: textarea
+    attributes:
+      label: "Summary"
+      description: "What is the core problem or idea that you're proposing to solve or implement? Provide a brief description."
+      placeholder: "Briefly describe the core problem or idea."
 
-        ### Summary
-        What is the core problem or idea that you're proposing to solve or implement? Provide a brief description.
+  - type: textarea
+    attributes:
+      label: "Why is it important?"
+      description: "Explain why this problem is worth addressing. What value does it bring to the team/project?"
+      placeholder: "Explain the importance of addressing this problem or idea."
 
-        ### Why is it important?
-        Explain why this problem is worth addressing. What value does it bring to the team/project?
+  - type: textarea
+    attributes:
+      label: "Initial Thoughts or Proposed Solutions"
+      description: "Do you have any ideas on how to solve it? If not, use this section to gather initial feedback and brainstorm."
+      placeholder: "Provide any initial thoughts or proposed solutions, or leave this for brainstorming."
 
-        ### Initial Thoughts or Proposed Solutions
-        Do you have any ideas on how to solve it? If not, use this section to gather initial feedback and brainstorm.
+  - type: textarea
+    attributes:
+      label: "Risks and Concerns"
+      description: "What are the risks, challenges, or possible blockers?"
+      placeholder: "List any risks or concerns."
 
-        ### Risks and Concerns
-        What are the risks, challenges, or possible blockers?
-
-        ---
   - type: checkboxes
     attributes:
       label: "Shepherding"
