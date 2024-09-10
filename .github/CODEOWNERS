@@ -1,0 +1,6 @@
+# Define code owners for the entire repository
+* @bwnodak
+
+# You can add more users or teams later as follows:
+# For example, you can specify owners for specific directories:
+/rfcs/ @bwnodak
