@@ -50,7 +50,7 @@ When an RFC May Not Be Needed:
 ├── rfcs/                             # Folder containing all RFCs 
 │ └── yyyy-mm-dd-rfc-title.md         # Individual RFCs, named by date and short title 
 └── .github/ 
-  └── ISSUE_TEMPLATE.md               # Template for pre-RFC issue discussion 
+  └── ISSUE_TEMPLATE                  # Templates for pre-RFC issue discussion 
   └── PULL_REQUEST_TEMPLATE.md        # Template for RFC pull requests
 ```
 
