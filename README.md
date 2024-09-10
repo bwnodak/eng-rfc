@@ -24,7 +24,7 @@ When an RFC May Not Be Needed:
 ## Process Overview
 
 1. **Pre-RFC Discussion:**
-   - Begin with an [Issue](https://github.com/{org}/eng-rfc/issues) in this repository. Use the provided issue template to outline the initial problem or idea.
+   - Begin with an [Issue](https://github.com/bwnodak/eng-rfc/issues) in this repository. Use the provided issue template to outline the initial problem or idea.
    - Engage in discussions. Everyone is encouraged to participate.
 
 2. **Creating an RFC:**
@@ -63,7 +63,7 @@ We encourage everyone in the team to contribute to discussions, issues, and RFC 
 - **Clone the repository**:
 
    ```bash
-   git clone https://github.com/{org}/eng-rfc.git
+   git clone https://github.com/bwnodak/eng-rfc.git
    cd eng-rfc
    ```
 
