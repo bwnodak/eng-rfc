@@ -1,0 +1,50 @@
+name: "RFC Project Issue"
+description: "Discuss a problem or idea for the Eng-RFC project"
+labels: ["pre-rfc"]
+assignees: [bwnodak]
+body:
+  - type: markdown
+    attributes:
+      value: "## RFC Project Issue"
+      
+  - type: textarea
+    attributes:
+      label: "Summary"
+      description: "What is the core problem or idea that you're proposing to solve or implement? Provide a brief description."
+      placeholder: "Briefly describe the core problem or idea."
+  
+  - type: textarea
+    attributes:
+      label: "Steps to Reproduce"
+      description: "If applicable, provide a clear step-by-step guide to reproduce the problem."
+      placeholder: "1. Step one\n2. Step two\n3. Step three"
+
+  - type: textarea
+    attributes:
+      label: "Expected Behavior"
+      description: "What outcome did you expect when following the steps?"
+      placeholder: "Describe the expected outcome here."
+
+  - type: textarea
+    attributes:
+      label: "Actual Behavior"
+      description: "What actually happened? How does it differ from the expected outcome?"
+      placeholder: "Describe the actual outcome here."
+
+  - type: textarea
+    attributes:
+      label: "Relevant Logs and Screenshots"
+      description: "Please attach any logs, error messages, or screenshots that might help in diagnosing the issue."
+      placeholder: "Paste or upload relevant logs or screenshots here."
+
+  - type: textarea
+    attributes:
+      label: "Suggested Fix (Optional)"
+      description: "Do you have any thoughts on how to resolve the issue? Feel free to suggest a potential solution."
+      placeholder: "Provide your suggestion here, if applicable."
+
+  - type: textarea
+    attributes:
+      label: "Additional Context"
+      description: "Add any other context, related issues, or external references that might help in understanding or resolving the issue."
+      placeholder: "Provide any additional information here."
