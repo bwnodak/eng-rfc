@@ -10,8 +10,8 @@ body:
   - type: textarea
     attributes:
       label: "Summary"
-      description: "What is the core problem or idea that you're proposing to solve or implement? Provide a brief description."
-      placeholder: "Briefly describe the core problem or idea."
+      description: "What is the issue? Note, this is not for Pre-RFC discussion."
+      placeholder: "Briefly describe the issue."
   
   - type: textarea
     attributes:
